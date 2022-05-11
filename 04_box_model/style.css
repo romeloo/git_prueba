@@ -1,0 +1,95 @@
+
+    /* El contenedor mayor es el que va a indicar 
+    la posición de los elementos de su interior */
+
+body{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    /* 100 Viewport-height no tiene límite el scroll, es infinito */
+    height: 100vh;
+    
+
+
+}
+
+.main{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    /* Primer paso es usar display flex */
+    display: flex;
+    /* Mover lo elementos en el eje x (horizontal) Flex-start, center o flex-end space-around/space-between */
+    justify-content: space-around;
+    /* Mover los elementos en el eje y (vertical) con mismos parámetros */
+    align-items: center;
+    /* Nos va a cambiar los elementos de fila a columna o visc. */
+    flex-direction:column;
+}
+
+    .secundary1{
+        border: 2px solid red;
+        height: 25%;
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        text-align: center;
+    }
+
+
+        .sec1{
+            border: 2px solid blue;
+            height: 25%;
+            width: 25%;
+            flex-direction: column;
+        }
+
+        .sec2{
+            border: 2px solid blue;
+            height: 25%;
+            width: 25%;
+            flex-direction: row;
+        }
+
+
+
+
+.main2{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row;
+}
+
+    .secundary2{
+        border: 2px solid red;
+        height: 25%;
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+
+    }
+
+        .sec1{
+            border: 2px solid blue;
+            height: 25%;
+            width: 25%;
+            flex-direction: column;
+        }
+
+        .sec2{
+            border: 2px solid blue;
+            height: 25%;
+            width: 25%;
+            flex-direction: row;
+    }

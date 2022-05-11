@@ -1,0 +1,52 @@
+
+body{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.Flag{
+    display: flex;
+    background-color: blue;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    height: 500px;
+    width: 250px;
+
+}    
+    .Section1{
+        display: flex;
+        height: 100%;
+        width: 90%;
+        justify-content:left;
+        flex-direction: column;
+    }
+
+        .Up1{
+            background-color:  white;
+            height: 45%;
+            align-items: flex-start;
+        }
+            .Up1-1{
+                background-color: red;
+                height: 85%;
+                width: 85%;
+                align-items: flex-start;
+
+            }
+
+        .Down1{
+            background-color:  white;
+            height: 45%;
+            align-items: flex-end;
+
+        }
+            .Down1-1{
+                background-color: red;
+                height: 85%;
+                width: 85%;
+                align-items: flex-end;
+            }
+                
+

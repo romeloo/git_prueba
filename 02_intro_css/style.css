@@ -1,0 +1,51 @@
+/*selector de etiqueta*/
+
+body{
+        background-color:#eaeaf0;
+        border: 3px solid blue;
+}
+
+h1,h4{
+    color:#c2452f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid blue;
+
+}
+
+
+p{
+    color:white;
+    font-size: 25px;
+    font-weight:bolder;
+    border: 3px solid blue;
+
+}
+
+
+img{
+    height: 300px;
+    width: 300px;
+
+}
+
+a{
+    color: #b6b6cf;
+    font-size:25px;
+    text-decoration:none;
+
+}
+
+
+/* selector tipo clase */
+
+.rojo{
+    color:red
+}
+
+#especial{
+    font-family: Arial, Helvetica, sans-serif;
+    color:gold;
+    font-size:20px;
+    font-weight:lighter;
+
+}

@@ -1,0 +1,150 @@
+
+
+/* header{
+    text-align: right;
+    float: right;s
+    
+} */
+
+#header1{
+    display: flex;
+    float: right;
+            /* border: 3px solid rgb(255, 60, 0); */
+    text-align: center;
+}
+
+body{
+    background-color: rgb(65, 66, 66);
+            /* border: 3px solid rgb(0, 255, 47); */
+}
+
+nav{
+    text-align: right;
+
+}
+
+#pos{
+float: right;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+            /* border: 3px solid rgb(255, 0, 200); */
+    
+ }
+
+    li.lia{
+        display: inline-block;
+        color: rgb(230, 233, 233);
+        font-size: 25px;
+        padding: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    li.lib{
+        display: inline-block;
+        color: rgb(230, 233, 233);
+        font-size: 25px;
+        padding: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+
+    .gb_A{
+        display: inline-block;
+        color: rgb(230, 233, 233);      
+        height: 40px;
+        width: 40px;
+        
+    }
+
+    li.lid{
+        display: inline-block;
+        color: rgb(230, 233, 233);
+        font-size: 25px;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+                /* border:solid rgb(11, 132, 245); */
+        background-color: rgb(11, 132, 245);
+    }
+
+
+
+
+.content{
+    /* display: inline-block; */
+    /* position: relative; */
+    /* display: flex; */
+            /* border: 5px dotted rgb(255, 94, 0); */
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#banner a{
+text-decoration: none;
+}
+
+li.li1{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(11, 132, 245);
+
+}
+
+li.li2{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color: red;
+
+}
+
+li.li3{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(255, 208, 0);
+
+}
+
+li.li4{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(11, 132, 245);
+
+}
+
+li.li5{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color: green;
+
+}
+
+li.li6{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color: red;
+
+}
+
+#below_bar{
+    text-align: center;
+    display:flex;
+    float: right;
+            /* border: 3px solid rgb(255, 60, 0); */
+
+}
