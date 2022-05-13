@@ -1,0 +1,90 @@
+.padre{
+    background-color: aqua;
+    height: 500px;
+    width: 80%;
+}
+
+.hijo1{
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    float: left;
+
+}
+
+.hijo2{
+    background-color: red;
+    height: 350px;
+    width: 350px;
+    float: right;
+}
+
+.hijo3{
+    background-color: blue;
+    height: 450px;
+    width: 450px;
+   
+}
+
+.hijo4{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.Anakin{
+    background-color: aqua;
+    height: 500px;
+    width: 80%;
+}
+
+.Luke1{
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    float: left;
+    left: 10px;
+
+
+}
+
+.Luke2{
+    background-color: red;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+}
+
+.Luke3{
+    background-color: blue;
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+    
+}
+
+.Luke4{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 26px;
+    bottom: 25px;
+}
+    
+.Luke5{
+    background-color: red;;
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    left: 26px;
+    bottom: 250px;
+    
+}

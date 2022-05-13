@@ -1,0 +1,292 @@
+
+rmeloj@LPTSFE-20538 MINGW64 ~
+$ git config user.name
+
+rmeloj@LPTSFE-20538 MINGW64 ~
+$ git config user.name "romelo"
+fatal: not in a git directory
+
+rmeloj@LPTSFE-20538 MINGW64 ~
+$ git config --global user.name "romelo"
+
+rmeloj@LPTSFE-20538 MINGW64 ~
+$ git config --global user.email rod.meloj@gmail.com
+
+rmeloj@LPTSFE-20538 MINGW64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/rmeloj/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=romelo
+user.email=rod.meloj@gmail.com
+
+rmeloj@LPTSFE-20538 MINGW64 ~
+$ :Q
+bash: :Q: command not found
+
+rmeloj@LPTSFE-20538 MINGW64 ~
+$ git config --global --unset user.name
+
+rmeloj@LPTSFE-20538 MINGW64 ~
+$ git config --global user.name "romeloo"
+
+rmeloj@LPTSFE-20538 MINGW64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/rmeloj/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.email=rod.meloj@gmail.com
+user.name=romeloo
+
+rmeloj@LPTSFE-20538 MINGW64 ~
+$ ls
+'3D Objects'/            Documents/        'Mis documentos'@                                                                               Pictures/       ntuser.dat.LOG1
+ AppData/                Downloads/         Music/                                                                                         Plantillas@     ntuser.dat.LOG2
+'Configuración local'@  'Entorno de red'@   NTUSER.DAT                                                                                     Reciente@       ntuser.ini
+ Contacts/               Favorites/         NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                       'Saved Games'/
+ Cookies@                Impresoras@        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   Searches/
+'Datos de programa'@     Links/             NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   SendTo@
+ Desktop/               'Menú Inicio'@      OneDrive/                                                                                      Videos/
+
+rmeloj@LPTSFE-20538 MINGW64 ~
+$ cd documents
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents
+$ ls
+'1.FORMATO EVAL DESEMPENO 2021_ONE PAGER.xlsx'     "Ajuste CA G60'21.xlsx"              'Fx OTC.xlsx'                              'My Data Sources'/                          Zoom/
+'1.FORMATO EVAL DESEMPENO 2022_ONE PAGER.xlsx'     'Custom Office Templates'/           'G60 Media Q4 x BU.xlsx'                   'RMJ - Formato 2022- Eval. Desempeño.pdf'   ZpK2WnAGhJr/
+'4. Formato One Pager 2022- Eval. Desempeño.pdf'   'DIG & MR.xlsx'                       INNOVATION/                               'RMJ - Formato 2022- Eval. Desempeño.pdf'   desktop.ini
+'4. Formato One Pager 2022- Eval. Desempeño.xlsx'  'Digital Julio.xlsx'                 "KPI's Sergio Joshafat Gomez Mendez.xlsx"   RRHH.PNG                                  '~ar200A.xar'
+ AAOK2WnAGhJr/                                     'EVALUACIÓN ANUAL RODRIGO MELO.pdf'  'Mi música'@                               "Sales PC Brands H1'21.xlsx"               '~ar534E.xar'
+ AAPersonal/                                       'FP&A'/                              'Mis imágenes'@                            'Var %GM.xlsx'                             '~ar724D.xar'
+"Ajuste BRA G60'21.xlsx"                           'Firma Electrónica Genomma.pdf'      'Mis vídeos'@                              "Venta ML Q1-Q4'21.xlsx"
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents
+$ cd aapersonal
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal
+$ ls
+ Acta_de_Nacimiento_MEJR920825HDFLMD08.pdf  'Cita Licencia.pdf'                 Findes/                                               MIT/                           'Sierra Gorda.xlsx'
+'C_CNSF S0043-0998_ene18VD.pdf'             'Comprobante Licencia.pdf'          Ford-Fiesta-ST-by-Bojix-Design-101-626x382.jpg       'PPT Night.pptx'                'e.firma SAT'/
+ Chicago/                                   'Comprobante de citas SEMOVI.pdf'  'Gastos PPTO.xlsx'                                     PVE.docx
+'Cita INE 2.pdf'                             Dev.F/                            'INE RMJ.pdf'                                          Projects/
+'Cita INE.pdf'                               Favors/                           'Itinerario para Localizador 118376059 Acapulco.pdf'  'Puntuaciones por perfil.xlsx'
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal
+$ cd ved.f
+bash: cd: ved.f: No such file or directory
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal
+$ cd dev.f
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f
+$ ls
+ MASTER_G17/  'Master Coding.xlsx'
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f
+$ cd masted_g17
+bash: cd: masted_g17: No such file or directory
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f
+$ cd master_g17
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17
+$ cd prueba_git
+bash: cd: prueba_git: No such file or directory
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17
+$ cd git_prueba
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17/git_prueba
+$ git init
+Initialized empty Git repository in C:/Users/rmeloj/Documents/AAPersonal/Dev.F/MASTER_G17/git_prueba/.git/
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17/git_prueba (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17/git_prueba (master)
+$ rm -rf .git/
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17/git_prueba
+$ cd ..
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17
+$ git init
+Initialized empty Git repository in C:/Users/rmeloj/Documents/AAPersonal/Dev.F/MASTER_G17/.git/
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (master)
+$ git add .
+warning: LF will be replaced by CRLF in 00_Projects/Google Images/Google.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 00_Projects/Google Images/Google_files/m=_b,_tp.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 00_Projects/Google Images/Google_files/saved_resource.html.
+The file will have its original line endings in your working directory
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   00_Projects/Google FE.html
+        new file:   00_Projects/Google Images/Google.html
+        new file:   00_Projects/Google Images/Google_files/m=_b,_tp
+        new file:   00_Projects/Google Images/Google_files/saved_resource.html
+        new file:   00_Projects/Google Style.css
+        new file:   01_intro_html/Assets/Cane_Corso.jpg
+        new file:   01_intro_html/Hi.html
+        new file:   01_intro_html/Index.html
+        new file:   02_intro_css/index.html
+        new file:   02_intro_css/style.css
+        new file:   03_css/img/cat.jfif
+        new file:   03_css/index.html
+        new file:   03_css/style.css
+        new file:   04_box_model/Box.PNG
+        new file:   04_box_model/FlagIndex.html
+        new file:   04_box_model/FlagStyle.css
+        new file:   04_box_model/index.html
+        new file:   04_box_model/style.css
+        new file:   "05_Html_ Sem\303\241ntico/Cane_Corso.jpg"
+        new file:   "05_Html_ Sem\303\241ntico/Index.html"
+        new file:   "05_Html_ Sem\303\241ntico/Style.css"
+        new file:   git_prueba/main.txt
+
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   00_Projects/Google FE.html
+        new file:   00_Projects/Google Images/Google.html
+        new file:   00_Projects/Google Images/Google_files/m=_b,_tp
+        new file:   00_Projects/Google Images/Google_files/saved_resource.html
+        new file:   00_Projects/Google Style.css
+        new file:   01_intro_html/Assets/Cane_Corso.jpg
+        new file:   01_intro_html/Hi.html
+        new file:   01_intro_html/Index.html
+        new file:   02_intro_css/index.html
+        new file:   02_intro_css/style.css
+        new file:   03_css/img/cat.jfif
+        new file:   03_css/index.html
+        new file:   03_css/style.css
+        new file:   04_box_model/Box.PNG
+        new file:   04_box_model/FlagIndex.html
+        new file:   04_box_model/FlagStyle.css
+        new file:   04_box_model/index.html
+        new file:   04_box_model/style.css
+        new file:   "05_Html_ Sem\303\241ntico/Cane_Corso.jpg"
+        new file:   "05_Html_ Sem\303\241ntico/Index.html"
+        new file:   "05_Html_ Sem\303\241ntico/Style.css"
+        new file:   git_prueba/main.txt
+
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (master)
+$ got branch -M main
+bash: got: command not found
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (master)
+$ git branch -M main
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (main)
+$ git remote add origin https://github.com/romeloo/git_prueba.git
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (main)
+$ git commit -m "first commit"
+[main (root-commit) d53acd2] first commit
+ 22 files changed, 2355 insertions(+)
+ create mode 100644 00_Projects/Google FE.html
+ create mode 100644 00_Projects/Google Images/Google.html
+ create mode 100644 00_Projects/Google Images/Google_files/m=_b,_tp
+ create mode 100644 00_Projects/Google Images/Google_files/saved_resource.html
+ create mode 100644 00_Projects/Google Style.css
+ create mode 100644 01_intro_html/Assets/Cane_Corso.jpg
+ create mode 100644 01_intro_html/Hi.html
+ create mode 100644 01_intro_html/Index.html
+ create mode 100644 02_intro_css/index.html
+ create mode 100644 02_intro_css/style.css
+ create mode 100644 03_css/img/cat.jfif
+ create mode 100644 03_css/index.html
+ create mode 100644 03_css/style.css
+ create mode 100644 04_box_model/Box.PNG
+ create mode 100644 04_box_model/FlagIndex.html
+ create mode 100644 04_box_model/FlagStyle.css
+ create mode 100644 04_box_model/index.html
+ create mode 100644 04_box_model/style.css
+ create mode 100644 "05_Html_ Sem\303\241ntico/Cane_Corso.jpg"
+ create mode 100644 "05_Html_ Sem\303\241ntico/Index.html"
+ create mode 100644 "05_Html_ Sem\303\241ntico/Style.css"
+ create mode 100644 git_prueba/main.txt
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (main)
+$ git log
+commit d53acd215e6d0638d661b30bcdd9f51c473e767f (HEAD -> main)
+Author: romeloo <rod.meloj@gmail.com>
+Date:   Tue May 10 19:39:47 2022 -0500
+
+    first commit
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (main)
+$Enumerating objects: 34, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (34/34), 403.41 KiB | 5.53 MiB/s, done.
+Total 34 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/romeloo/git_prueba.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (main)
+$
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (main)
+$ git push -u origin mai
+error: src refspec mai does not match any
+error: failed to push some refs to 'https://github.com/romeloo/git_prueba.git'
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (main)
+$ g[Ct push -u originit status mai
+> g[Ct push -u originit status maiCCCC^C
+
+rmeloj@LPTSFE-20538 MINGW64 ~/documents/aapersonal/dev.f/master_g17 (main)
+$
