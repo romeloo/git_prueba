@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Promedios</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="JS/app.js"></script>
+</head>
+<body>
+
+    <h1>Sistema Automatizado de Promedio</h1>
+    <label for="c_Estudiantes">Cantidad de Estudiantes</label>
+    <input id="c_Estudiantes" type="number">
+    <label for="c_Estudiantes">Cantidad de periodos a evaluar</label>
+    <input id="c_Estudiantes" type="number">
+    <br>
+    <br>
+    <button onclick="generar()">Generar Planilla</button>
+    <br>
+    <br>
+    <br>
+
+    <div>
+    <table>
+        <thead>
+          <tr>
+            <th>Orden</th>
+            <th>Estudiante</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+            <th>Final</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><input id="estudiante1" type="text"></td>
+            <td><input id="nota1E1" type="number"></td>
+            <td><input id="nota2E1" type="number"></td>
+            <td><input id="nota3E1" type="number"></td>
+            <td><input id="PromE1" type="number"></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><input id="estudiante2" type="text"></td>
+            <td><input id="nota1E2" type="number"></td>
+            <td><input id="nota2E2" type="number"></td>
+            <td><input id="nota3E2" type="number"></td>
+            <td><input id="PromE1" type="number"></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><input id="estudiante3" type="text"></td>
+            <td><input id="nota1E3" type="number"></td>
+            <td><input id="nota2E3" type="number"></td>
+            <td><input id="nota3E3" type="number"></td>
+            <td><input id="PromE1" type="number"></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><input id="estudiante4" type="text"></td>
+            <td><input id="nota1E4" type="number"></td>
+            <td><input id="nota2E4" type="number"></td>
+            <td><input id="nota3E4" type="number"></td>
+            <td><input id="PromE1" type="number"></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><input id="estudiante5" type="text"></td>
+            <td><input id="nota1E5" type="number"></td>
+            <td><input id="nota2E5" type="number"></td>
+            <td><input id="nota3E5" type="number"></td>
+            <td><input id="PromE1" type="number"></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><input id="estudiante6" type="text"></td>
+            <td><input id="nota1E6" type="number"></td>
+            <td><input id="nota2E6" type="number"></td>
+            <td><input id="nota3E6" type="number"></td>
+            <td><input id="PromE1" type="number"></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><input id="estudiante7" type="text"></td>
+            <td><input id="nota1E7" type="number"></td>
+            <td><input id="nota2E7" type="number"></td>
+            <td><input id="nota3E7" type="number"></td>
+            <td><input id="PromE1" type="number"></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><input id="estudiante8" type="text"></td>
+            <td><input id="nota1E8" type="number"></td>
+            <td><input id="nota2E8" type="number"></td>
+            <td><input id="nota3E8" type="number"></td>
+            <td><input id="PromE1" type="number"></td>
+          </tr>
+
+          <!-- línea final en blanco -->
+          <tr> 
+            <td></td>
+            <td colspan="4">Promedio general del grupo: </td>
+            <td><input id="promTotal" type="number"></td>
+          </tr>
+        </table>
+
+        <button onclick="calcular()">Generar Planilla"></button>
+
+    </div>
+
+        <button onclick="promediarNotas()">Promediar</button>
+
+</body>
+</html>

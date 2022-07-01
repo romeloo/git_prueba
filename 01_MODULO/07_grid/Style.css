@@ -35,8 +35,7 @@ body{
     padding: 20px;
     background-color: brown;
     justify-items: start;
-        
-     
+         
 }
 
 .grid-item-2{
@@ -46,4 +45,31 @@ body{
     font-size: 30px;
     text-align: center;
     color: beige;
+}
+
+.grid-container-3{
+    margin: 15px;
+    display: grid;
+    height: 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    /* padding: 20px; */
+    background-color: brown;
+         
+}
+
+.grid-item-3{
+    background-color: rgb(235, 120, 143);
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: beige;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    place-self: center;
 }

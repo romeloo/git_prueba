@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(71, 63, 63);
+}
+
+.darth-maul{
+    margin: 20px 0;
+    background-color: grey;
+    border: white solid 20px;
+}
+
+.anakin{
+    margin: 20px 0;
+    background-color: red;
+    border: blue solid 20px;
+}
+
+.col{
+    border: 2px white solid;
+}

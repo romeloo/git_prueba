@@ -1,0 +1,13 @@
+body{
+    background-color: darkblue;
+    color: wheat;
+    font-size: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: brown;
+        color: azure;
+        font-size: 100px;
+    }
+}
